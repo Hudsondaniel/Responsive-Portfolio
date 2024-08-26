@@ -1,0 +1,44 @@
+header{
+    background-color: rgba(4, 103, 143, 0.877);
+}
+
+.about-me-header{
+
+    font-size: 2.5em;
+}
+
+.profile-pic{
+    object-fit:cover;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    padding: 5rem;
+}
+
+.header-about-me{
+    margin-top: 3rem;
+    background-color: white;
+    margin-bottom: 3rem;
+}
+
+.header-icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    height: 2rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.header-about-me{
+    padding: 2rem;
+}
+
+.dummy-para{
+    margin-top: 1.5rem;
+    margin-bottom: 1.8rem;
+}
