@@ -3,17 +3,17 @@ header{
 }
 
 .about-me-header{
-
     font-size: 2.5em;
 }
 
-.profile-pic{
-    object-fit:cover;
+.header-image-container{
+    height: 400px;
+
 }
 
 .header-container{
     display: grid;
-    grid-template-columns: 0.7fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 5rem;
 }
 
@@ -21,6 +21,8 @@ header{
     margin-top: 3rem;
     background-color: white;
     margin-bottom: 3rem;
+    padding: 2rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .header-icons{
@@ -34,8 +36,11 @@ header{
     padding-bottom: 1rem;
 }
 
-.header-about-me{
-    padding: 2rem;
+.header-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+
 }
 
 .dummy-para{
