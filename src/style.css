@@ -173,3 +173,24 @@
 .footer-image{
     padding: 4rem;
 }
+
+.footer-info{
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+
+.contact-footer{
+    color: white;
+    font-size: 2rem;
+}
+
+.desc-footer{
+    color: white;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.address-footer{
+    color: white;
+    padding-top: 2rem;
+}
