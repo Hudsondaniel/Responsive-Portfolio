@@ -157,6 +157,21 @@
     padding-top: 1rem;
 }
 
+/* media queries for main section */
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    /* Styles for medium devices */
+    .project-cards{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for small mobile devices */
+    .project-cards{
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Footer styling */
 
 .footer-data{
