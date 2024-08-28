@@ -11,6 +11,10 @@
     z-index: 0;
 }
 
+.header-image-container-media{
+    display: none;
+}
+
 .about-me-header{
     font-size: 2.5em;
 }
@@ -61,13 +65,6 @@
 
 @media only screen and (min-width: 768px) and (max-width:1024px){
 
-    .header-image-container{
-
-    }
-    .header-about-me{
-
-        
-    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -225,5 +222,15 @@
 
 @media only screen and (max-width: 480px) {
     /* Styles for small mobile devices */
-
+    .footer-data{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-info{
+        padding-right: 4rem;
+    }
+    .footer-image img{
+        height: 100%;
+        width: 100%;
+    }
 }
