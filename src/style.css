@@ -254,23 +254,24 @@
         object-fit: contain;
     }
 
+    .about-me-header{
+        font-size: 2rem;
+    }
+
     .header-about-me{
         margin-bottom: 0px;
         margin-top: 4rem;
+        margin-left: 4rem;
     }
 
     .header-container{
         display: block;
     }
     
-    /* .header-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    } */
 
     .dummy-para{
         position: relative;
+        font-size: 1.2rem;
     }
 
     .header-image-container{
@@ -278,11 +279,14 @@
 
     }
 
-    /* .header-image-container img{
-        width: 70%;
-        margin-top: 2rem;
-        margin-left: 4rem;
-    } */
+    .header-image-container img{
+        width: 97%;
+        height: 98%;
+    }
+
+    .header-icons{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 480px) {
