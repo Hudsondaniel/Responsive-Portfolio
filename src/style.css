@@ -253,6 +253,36 @@
         width: 80%;
         object-fit: contain;
     }
+
+    .header-about-me{
+        margin-bottom: 0px;
+        margin-top: 4rem;
+    }
+
+    .header-container{
+        display: block;
+    }
+    
+    /* .header-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    } */
+
+    .dummy-para{
+        position: relative;
+    }
+
+    .header-image-container{
+        float: left;
+
+    }
+
+    /* .header-image-container img{
+        width: 70%;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    } */
 }
 
 @media only screen and (max-width: 480px) {
