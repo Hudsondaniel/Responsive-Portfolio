@@ -69,6 +69,41 @@
 
 @media only screen and (max-width: 480px) {
     /* Styles for small mobile devices */
+
+    .header-image-container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+
+    .header-image-container img{
+        object-fit: cover;
+        
+    }
+    
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .header-about-me{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .about-me-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 
